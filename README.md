@@ -1,5 +1,9 @@
-# ExamApp
+# Archive System Part 2
+Archive System part 2 is an assignment that was made during the fourth semester as a computer science student.
+We took our Archive System that we made for the second semester and made it in oure elective course Angular.
 
+
+## Exam App
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
 
 ## Development server
