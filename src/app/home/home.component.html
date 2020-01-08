@@ -1,0 +1,38 @@
+<div class="top">
+  <div class="menuTop">
+    <div class="boxOne"></div> 
+    <div class="boxTwo"></div>
+  </div>
+  <div class="menuBarTop"> 
+    <div >  <img class="logo" src="assets/img/naviair-logo@2x.png"> </div>
+    <div class="space"></div>
+    <div class="loginbnt" mat-button *ngIf="!loggedIn" routerLink="/home/login"><button mat-button>Login</button></div>
+    <div class="logoutbnt"  mat-button *ngIf="loggedIn" (click)="onLogoutClick()"><button mat-button>Log out</button></div>
+   
+  
+   
+  </div>
+</div>
+
+
+<div class="midt">
+  <div class="middel">
+    <router-outlet></router-outlet>
+
+
+      
+
+          
+  </div>
+</div>
+<div class="bott">
+<div class="bottom">
+  <div class="menuBarTop"></div>
+
+    <div class="bot">
+        <div class="boxTwo"></div>
+        <div class="boxOne"></div> 
+        
+      </div>
+</div>
+</div>

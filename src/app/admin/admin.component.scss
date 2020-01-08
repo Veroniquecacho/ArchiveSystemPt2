@@ -1,0 +1,45 @@
+.menu{
+
+    position: sticky;
+    height: 50px;
+    top: 0;
+  }
+
+  .menuBar{
+    background: rgb(243, 243, 243);
+    height: 50px;
+    width: 100%;
+    margin: auto;
+  
+  }
+  .menuButton{
+     
+    border: none;
+    background-color: inherit;
+    padding: 14px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    border-top: 4px solid transparent;
+    
+  }
+  .menuButton:hover {
+   
+    border-top: 4px solid #C5D950;
+  
+  }
+
+  p{
+      display: initial;
+      float: right;
+      margin-right: 22px;
+      font-size: 13px;
+      margin-top: 19px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }

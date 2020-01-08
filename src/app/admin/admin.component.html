@@ -1,0 +1,25 @@
+<div class="menu" >
+
+    <div class="menuBar">
+      <button routerLink="/home/admin/equipment" class="menuButton" >EQUIPMENT</button>
+     
+  
+      <button routerLink="/home/admin/service" class="menuButton">SERVICE</button>
+      <button  routerLink="/home/admin/application" class="menuButton">APPLICATION</button>
+      <button routerLink="/home/admin/users"  class="menuButton">USERS</button>
+      
+      <!-- <div class="search"> 
+          <input type="text" name="search" class="searchInput" matInput (keyup)="applyFilter($event.target.value)">
+          <button class="searchbnt"type="submit"><i class="material-icons">
+              search
+              </i></button>
+        </div> -->
+        <p matTooltip="You are logged in as Admin">Admin</p>
+
+
+      
+    
+    </div>
+  
+  </div>
+<router-outlet></router-outlet>

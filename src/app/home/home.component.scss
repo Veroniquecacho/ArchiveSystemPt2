@@ -1,0 +1,111 @@
+.top{
+    background: #44494C;
+    height: 150px;
+}
+.menuTop{
+    width: 100%;
+    height: 50px;
+    background: #26292C;
+    
+    
+}
+.bot{
+    width: 100%;
+    height: 50px;
+    background: #26292C;
+    
+   
+}
+.bott{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.boxOne{
+    margin: auto;
+    width: 70%;
+    background: #26292C;
+    height: 25px;
+}
+.boxTwo{
+    margin: auto;
+    width: 70%;
+    background: #43494C;
+    height: 25px;
+}
+.menuBarTop{
+    background: rgb(243, 243, 243);
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.space{
+    width: 61%;
+}
+.menuBar{
+    background: rgb(243, 243, 243);
+    height: 50px;
+    width: 70%;
+    margin: auto;
+  
+}
+.loginbnt:hover{
+background:#C5D950;
+}
+
+.menuBottom{
+    background: #43494C;
+    height: 50px;
+}
+.loginbnt{
+    margin-top: 30px;
+    height: 4px;
+}
+.logoutbnt{
+    margin-top: 30px;
+    height: 4px;
+}
+.logoutbnt:hover{
+    background:rgb(217, 80, 80);
+    }
+    
+
+
+
+
+.middel{
+    width: 70%;
+    margin: auto;
+    border: 0.5px solid rgb(241, 241, 241);
+    height:100%;
+    padding-bottom: 200px;
+
+}
+
+.bottom{
+    background: #43494C;
+    height: 130px;
+    bottom: 0;
+    
+   
+
+}
+.loginBox{
+   
+    width: 40%;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px; 
+    padding: 20px;
+}
+
+
+.logo{
+     width: 200px; 
+    padding: 40px;
+  
+}
+

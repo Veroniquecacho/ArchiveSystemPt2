@@ -1,0 +1,56 @@
+<mat-card>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="space"></div>
+      
+<div class="login">
+  <h1 id="login">Login</h1>
+</div>
+<div class="space"></div>
+
+<div class="loginbox">
+  <div class="val"> 
+    <div class="loginicon">
+     <i class="material-icons">
+                account_box
+                </i>
+    <mat-form-field >
+       
+         
+          <input  matInput placeholder="username" type="text"  id="username" formControlName="username">
+          
+  
+    </mat-form-field> 
+       </div>
+<mat-error *ngIf="loginForm.controls.username.errors?.required && loginForm.controls.username.touched">
+    You must fill out the username
+  </mat-error>
+  <mat-error *ngIf="loginForm.controls.username.errors?.minlength && loginForm.controls.username.touched">
+    Must be at least 4 characters
+  </mat-error>
+</div>
+  <div class="val"> 
+<div class="loginicon">
+    <i class="material-icons">
+        lock
+        </i>
+<mat-form-field >
+  
+        <input class="inputLogin" matInput placeholder="password" type="password" formControlName="password" id="password">
+     
+</mat-form-field>
+</div> 
+<mat-error *ngIf="loginForm.controls.password.errors?.required && loginForm.controls.password.touched">
+    You must fill out the password
+  </mat-error>
+
+</div>
+<div class="space"></div>
+<div class="space"></div>
+
+</div>
+
+  <button class="loginbnt" mat-raised-button type="submit" id="submitLogin" [disabled]="!loginForm.valid">login</button>
+
+</form>
+
+</mat-card>

@@ -1,0 +1,49 @@
+.mat-card{
+    background: #43494C;
+   
+    width: 40%;
+    margin: auto;
+    top: 20px;
+    height: 340px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  h1{
+    margin: auto;
+    width: 20%;
+    padding: 20px;
+    padding-bottom: 45px;
+  }
+
+  .loginicon{
+    width: 60%;
+    margin: auto;
+  }
+
+  .mat-error{
+    width: 48%;
+    margin: auto;
+    font-size: 12px; 
+    
+  }
+  .val{
+      height: 90px;
+  }
+
+  .mat-raised-button{
+      background: #C5D950;
+      float: right;
+      margin-right: 115px;
+  }
+  .mat-form-field-invalid .mat-input-element, .mat-warn .mat-input-element {
+    color: red;
+  }
